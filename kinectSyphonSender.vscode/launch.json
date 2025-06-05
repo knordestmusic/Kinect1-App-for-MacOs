@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Launch KinectSyphonSenderDebug",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "${workspaceFolder}/bin/kinectSyphonSenderDebug",
+        "args": [],
+        "cwd": "${workspaceFolder}",
+        "environment": [],
+        "MIMode": "lldb",
+        "preLaunchTask": "Build Debug",
+        "stopAtEntry": false
+      }
+    ]
+  }
+  
