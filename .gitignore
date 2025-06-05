@@ -1,0 +1,24 @@
+# Build artifacts
+bin/
+obj/
+*.o
+*.a
+
+# macOS
+.DS_Store
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Other build files
+build/
+*.xcarchive
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# Keep empty bin folder structure
+!bin/.gitkeep
